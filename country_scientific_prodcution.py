@@ -3,6 +3,13 @@
 import pandas as pd
 import folium
 
+# python -m venv .venv
+# .venv\Scripts\activate
+# python.exe -m pip install --upgrade pip
+# pip3 install pyarrow pandas
+# pip3 install networkx
+# pip3 install matplotlib
+
 def load_affiliations():
     """Carga el archivo scopus-papers.csv y retorna un dataframe con la columna 'Affiliations'"""
     dataframe = pd.read_csv(
